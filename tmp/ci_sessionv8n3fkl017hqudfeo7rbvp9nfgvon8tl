@@ -1,0 +1,6 @@
+__ci_last_regenerate|i:1722084756;nip|s:8:"51521004";password|s:4:"user";signin|s:2:"OK";pesan|s:455:"<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                        Pegawai sudah melakukan checkout hari ini.
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>";__ci_vars|a:1:{s:5:"pesan";s:3:"old";}
