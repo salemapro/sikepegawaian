@@ -99,4 +99,16 @@ class Pekerjaan extends CI_Controller
             'required' => '%s Harus diisi !!'
         ));
     }
+
+    function pekerjaan_user()
+    {
+        $current_date = date('Y-m-d');
+        $data['title'] = 'Pekerjaan Pegawai CV.Insaba Pratista Agya';
+        $data['pekerjaan'] = $this->Pekerjaan_model->get_data_by_nip($current_date);
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/navbar', $data);
+        $this->load->view('pekerjaan_user', $data);
+        $this->load->view('templates/footer');
+    }
 }

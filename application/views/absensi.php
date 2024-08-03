@@ -86,12 +86,12 @@
                                         <option value="Bekerja di kantor">Bekerja di kantor</option>
                                     </select>
                                 </div>
-                                <?php if (isset($pekerjaan->detail_pekerjaan)) { ?>
+                                <!-- <?php if (isset($pekerjaan->detail_pekerjaan)) { ?>
                                     <div class="form-group">
                                         <label>Pekerjaan Hari Ini</label>
                                         <textarea name="pekerjaan" id="pekerjaan" class="form-control" readonly><?= isset($pekerjaan->detail_pekerjaan) ? $pekerjaan->detail_pekerjaan : '' ?></textarea>
                                     </div>
-                                <?php } ?>
+                                <?php } ?> -->
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
                         </div>
